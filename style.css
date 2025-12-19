@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(18, 18, 18);
+    background-image: url("images/lonerism.jpg");
+    background-size: cover;
+}
+
+.navigation {
+    background-color: hsla(0, 4%, 59%, 0.51);
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navigation ul li {
+    list-style: none;
+    padding: 2.5%;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+.navigation ul li:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.navigation ul li:hover>a {
+    color: black;
+}
+
+.main-content ul li a{
+    list-style: none;
+    color: rgb(241, 237, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main-content ul li a p{
+    font-family: Helvetica;
+    font-size: 16px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    background-color:rgb(18, 18, 18);
+}
+
+.main-content ul li a img {
+    width: 250px;
+}
+
+.about-me{
+    position: fixed;
+    background-color: white;
+    bottom: 20px;
+    left: 20px;
+    max-width: 301px;
+    text-align: justify;
+    padding: 1%;
+    font-family: Helvetica;
+}

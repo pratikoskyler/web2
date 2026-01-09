@@ -43,6 +43,13 @@ body {
     text-decoration: none;
 }
 
+.main-content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
 .main-content ul li a p{
     font-family: Helvetica;
     font-size: 16px;
@@ -64,4 +71,37 @@ body {
     text-align: justify;
     padding: 1%;
     font-family: Helvetica;
+}
+
+.description li{
+    list-style-type: none;
+}
+
+.description li p{
+    font-size: 24px;
+    padding: 1%;
+    background-color: blanchedalmond;
+    max-width: 750px;
+}
+
+.description li a p{
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6)
+}
+
+.modal:target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background: white;
+    padding: irem;
 }
